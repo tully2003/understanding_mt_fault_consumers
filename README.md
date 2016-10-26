@@ -16,4 +16,4 @@ The **EventConsumer** handles both `EventThatOccurredInA` and `Fault<EventThatOc
 I do **not** expect the consumer for `Fault<EventThatOccurredInA>` to be triggered by context.
 
 ## Expectations
-I expect that when consuming events in ContextB and the handlig fails for the fault to only be detected by ContextB
+I expect that when consuming events in ContextB and the handling fails for the fault to only be processed by ContextB
